@@ -12,11 +12,6 @@ body {
     color: #F9FAF8;
 }
 
-.header, .content, .footer {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
 .header {
     display: flex;
     flex-direction: column;
@@ -28,6 +23,8 @@ body {
 
 .hero {
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .hero .text {
@@ -45,10 +42,53 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.card .image {
+    height: 100px;
+    width: 100px;
+    border: 5px solid purple;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-grow: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
