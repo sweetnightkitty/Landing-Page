@@ -141,13 +141,11 @@ p.text {
     background-color: #3882F6;
     border: 0;
     border-radius: 8px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 200px;
     align-self: stretch;
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 40px 100px;
 }
 
 .cta-text {
@@ -192,4 +190,10 @@ button {
     font-weight: bold;
     font-size: 16px;
 
+}
+
+.cta-btn {
+    border: 2px solid #F9FAF8;
+    margin: 10px 0;
+    padding: 0px 12px;
 }
